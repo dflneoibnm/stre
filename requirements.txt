@@ -1,6 +1,4 @@
 ﻿numpy
-opencv-python
-fpdf
 mediapipe
 scipy
 protobuf
