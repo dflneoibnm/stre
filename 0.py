@@ -9,7 +9,7 @@ import tempfile
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_pose = mp.solutions.pose
-pose = mp_pose.Pose(model_complexity=2)
+pose = mp_pose.Pose(model_complexity=1)
         
 
 video_cote = st.file_uploader("Vue de cote", type=["mp4", "avi", "mov"])
