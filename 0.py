@@ -1,11 +1,12 @@
 import streamlit as st
-import numpy as np
-import tempfile
+import datetime
 
-f = open("demofile2.txt", "a")
-f.write("Now the file has more content!")
-f.close()
+nom = st.text_input('Entre le nom')
+date = st.time_input('Date',datetime)
+heure = st.time_input('heure')
 
-
-
-
+if st.button('Signer'): 
+    f = open("demofile2.txt", "a")
+    f.write(date, heure)
+    f.close()
+    st.title('Well done pour aujourdhui')
