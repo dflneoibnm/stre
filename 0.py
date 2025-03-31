@@ -7,6 +7,6 @@ heure = st.time_input('heure')
 
 if st.button('Signer'): 
     f = open("demofile2.txt", "a")
-    f.write(date, heure)
+    f.write(date)
     f.close()
     st.title('Well done pour aujourdhui')
