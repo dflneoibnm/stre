@@ -1,4 +1,3 @@
 ﻿numpy
-mediapipe
-scipy
-protobuf
+datetime
+streamlit
